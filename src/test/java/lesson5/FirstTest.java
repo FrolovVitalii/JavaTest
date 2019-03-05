@@ -29,10 +29,15 @@ public class FirstTest {
 
     @Test
     public  void  verifyFirstType(){
-        driver.findElement(By.id("search_query_top")).clear();
-        driver.findElement(By.id("search_query_top")).sendKeys("Dress");
-        Stream<WebElement> str = driver.findElements(By.xpath("//#[id=\"search\"]/div[2]/ul/li")).stream();
-        Optional<WebElement> webelement = str.filter(s->s.getText().contains("Dress")).findAny();
+        driver.findElement(By.id("search_query_top"))
+                .clear();
+        driver.findElement(By.id("search_query_top"))
+                .sendKeys("Dress");
+        Stream<WebElement> str = driver
+                .findElements(By.xpath("//#[id=\"search\"]/div[2]/ul/li")).stream();
+        Optional<WebElement> webelement = str
+                .filter(s->s.getText().contains("Dress"))
+                .findAny();
         Assert.assertThat(webelement.get().getText(), containsString("Dress"));
     }
 
