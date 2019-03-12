@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1951d354-656e-42a0-9314-65cd583e0466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson5/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson5/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="50" column="83" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="83" />
+            <state relative-caret-position="256">
+              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1809#1810#0" expanded="true" />
@@ -290,6 +287,12 @@
     <history-entry file="FirstTest_verifyFirstType_(1) - 2019.03.12 at 13h 48m 46s.xml">
       <configuration name="FirstTest.verifyFirstType (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstTest_verifyFirstType_(1) - 2019.03.12 at 14h 14m 30s.xml">
+      <configuration name="FirstTest.verifyFirstType (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstTest_verifyFirstType_(1) - 2019.03.12 at 14h 18m 06s.xml">
+      <configuration name="FirstTest.verifyFirstType (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="741" extended-state="6" />
@@ -348,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="50" column="83" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="83" />
+        <state relative-caret-position="256">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1809#1810#0" expanded="true" />

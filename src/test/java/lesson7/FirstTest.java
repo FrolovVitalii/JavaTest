@@ -40,17 +40,7 @@ public class FirstTest {
     @Test
     public  void  verifyFirstType(){
         page.searchFor("Dress");
-       /* Stream<WebElement> str = driver
-                .findElements(By.xpath("//#[id=\"search\"]/div[2]/ul/li[1]")).stream();
-        Optional<WebElement> webElement = str
-                .filter(s->s.getText().contains("Dress"))
-                .findAny();
-        */
-
-        String text = (new WebDriverWait(driver,10,2))
-                            .until(s -> s.findElement(By.xpath("//div[2]/ul/li[1]"))
-                            .getText());
-        Assert.assertThat(text, containsString("Dress"));
+        Assert.assertThat(page.searchedResult(driver), containsString("Dress"));
     }
 
     @AfterClass
@@ -64,8 +54,6 @@ class LandingPage{
     @FindBy(id="search_query_top")
     WebElement searchField;
 
-    @FindBy(xpath="//div[2]/ul/li[1]")
-    WebElement searchedResult;
 
     public LandingPage(WebDriver driver){
         PageFactory.initElements(driver,this);
@@ -74,5 +62,11 @@ class LandingPage{
     void searchFor(String query){
         searchField.clear();
         searchField.sendKeys(query);
+    }
+
+    String searchedResult(WebDriver driver){
+        return (new WebDriverWait(driver,16,2))
+                .until(s -> s.findElement(By.xpath("//div[2]/ul/li[1]"))
+                        .getText());
     }
 }
