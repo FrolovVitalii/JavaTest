@@ -35,10 +35,10 @@ public class FirstTest {
                 .sendKeys("Dress");
         Stream<WebElement> str = driver
                 .findElements(By.xpath("//#[id=\"search\"]/div[2]/ul/li")).stream();
-        Optional<WebElement> webelement = str
+        Optional<WebElement> webElement = str
                 .filter(s->s.getText().contains("Dress"))
                 .findAny();
-        Assert.assertThat(webelement.get().getText(), containsString("Dress"));
+        Assert.assertThat(webElement.get().getText(), containsString("Dress"));
     }
 
     @AfterClass
