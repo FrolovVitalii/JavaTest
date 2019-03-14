@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1951d354-656e-42a0-9314-65cd583e0466" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson7/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson8/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson8/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson8/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson7/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson7/LandingPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/lesson5/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="210">
               <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,17 +42,63 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+            <state relative-caret-position="397">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1809#1810#0" expanded="true" />
-                <element signature="e#1838#1839#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
-                <element signature="e#2101#2102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#succeeded#0;class#347:813" />
+                <element signature="method#failed#0;class#380:942" />
+                <element signature="method#skipped#0;class#347:800" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/FirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="375">
               <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
@@ -78,7 +131,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/lesson5/lesson5.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson5/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson7/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson8/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson8/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lesson8/LandingPage.java" />
       </list>
     </option>
   </component>
@@ -94,8 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +205,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson7" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="comautomationpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comautomationpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson8" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,6 +227,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson8" />
       <recent name="lesson7" />
     </key>
   </component>
@@ -177,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.verifyFirstType (1)">
+  <component name="RunManager" selected="JUnit.FirstTest.FirstTest">
     <configuration name="FirstTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comautomationpractice" />
       <extension name="coverage">
@@ -193,17 +259,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comautomationpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="lesson8" />
+      <option name="MAIN_CLASS_NAME" value="lesson8.FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,6 +285,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="lesson7" />
       <option name="MAIN_CLASS_NAME" value="lesson7.FirstTest" />
+      <option name="METHOD_NAME" value="verifyFirstType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.verifyFirstType (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comautomationpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson8" />
+      <option name="MAIN_CLASS_NAME" value="lesson8.FirstTest" />
       <option name="METHOD_NAME" value="verifyFirstType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -242,10 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.FirstTest" />
+        <item itemvalue="JUnit.FirstTest.verifyFirstType (2)" />
         <item itemvalue="JUnit.FirstTest.verifyFirstType (1)" />
         <item itemvalue="JUnit.FirstTest (1)" />
         <item itemvalue="JUnit.FirstTest.verifyFirstType" />
-        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,9 +347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2019.03.05 at 14h 38m 14s.xml">
-      <configuration name="FirstTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FirstTest - 2019.03.05 at 14h 39m 37s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
@@ -293,12 +374,15 @@
     <history-entry file="FirstTest_verifyFirstType_(1) - 2019.03.12 at 14h 18m 06s.xml">
       <configuration name="FirstTest.verifyFirstType (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FirstTest_verifyFirstType_(2) - 2019.03.14 at 12h 50m 26s.xml">
+      <configuration name="FirstTest.verifyFirstType (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -334,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lesson5/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="210">
           <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -344,21 +428,59 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="375">
           <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lesson7/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        <state relative-caret-position="397">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#succeeded#0;class#347:813" />
+            <element signature="method#failed#0;class#380:942" />
+            <element signature="method#skipped#0;class#347:800" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lesson8/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
