@@ -1,5 +1,5 @@
-package lesson9.add_simple_logging;
-import static lesson9.add_simple_logging.Conditions.VISIBLE;
+package page;
+import static page.Conditions.VISIBLE;
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllElementsLocatedBy;
 import java.util.List;
 import java.util.function.Function;
@@ -8,10 +8,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import page.Conditions;
 
 public abstract class SimpleAPI {
 
-    abstract WebDriver getDriver();
+    public abstract WebDriver getDriver();
 
     protected void open(String url) {
         getDriver().get(url);
@@ -41,7 +42,7 @@ public abstract class SimpleAPI {
         return $$(By.xpath(xPath));
     }
 
-    <T> T waitFor(ExpectedCondition<T> condition, long timeout) {
+    public <T> T waitFor(ExpectedCondition<T> condition, long timeout) {
         return (new WebDriverWait(getDriver(), timeout)).until(condition);
     }
 

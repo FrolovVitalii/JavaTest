@@ -1,4 +1,4 @@
-package lesson9.add_simple_logging;
+package page;
 
 import java.util.function.Function;
 

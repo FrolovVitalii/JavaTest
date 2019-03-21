@@ -1,4 +1,4 @@
-package lesson9.add_simple_logging;
+package page;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -13,7 +13,7 @@ public abstract class BasePage extends SimpleAPI {
     }
 
     @Override
-    WebDriver getDriver() {
+    public WebDriver getDriver() {
         return driver;
     }
 }

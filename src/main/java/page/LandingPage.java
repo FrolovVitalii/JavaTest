@@ -1,5 +1,5 @@
-package lesson9.add_simple_logging;
-import static lesson9.add_simple_logging.Conditions.CLICKABLE;
+package page;
+
 import static org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOfElementWithText;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,22 +13,22 @@ public class LandingPage extends BasePage {
         super(driver);
     }
 
-    void visit() {
+    public void visit() {
         open("http://automationpractice.com/index.php");
     }
 
-    void searchFor(String query) {
-        $(searchFieldLocator, CLICKABLE).click();
+    public void searchFor(String query) {
+        $(searchFieldLocator, Conditions.CLICKABLE).click();
         $(searchFieldLocator).clear();
         $(searchFieldLocator).sendKeys(query);
     }
 
-    void searchFor(String query, String oldTip) {
+    public void searchFor(String query, String oldTip) {
         searchFor(query);
         waitFor(invisibilityOfElementWithText(firstTipLocator, oldTip), 5l);
     }
 
-    String getFirstTipText() {
+    public String getFirstTipText() {
         return $(firstTipLocator).getText();
     }
 }
