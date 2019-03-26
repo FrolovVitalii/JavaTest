@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1951d354-656e-42a0-9314-65cd583e0466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/Conditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Conditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/SimpleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/SimpleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/BaseTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/BaseTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/Conditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/add_simple_logging/SimpleAPI.class" beforeDir="false" />
-    </list>
+    <list default="true" id="1951d354-656e-42a0-9314-65cd583e0466" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,10 +47,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
                 <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#2229#2230#0" expanded="true" />
@@ -438,6 +420,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -445,7 +428,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798658" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,10 +607,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lesson9/add_simple_logging/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#669#670#0" expanded="true" />
             <element signature="e#2229#2230#0" expanded="true" />
